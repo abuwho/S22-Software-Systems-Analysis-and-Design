@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T14:32:21.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zyN02TYqaa9ow_bFh0Yf" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T14:36:40.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZtTu_yUIz7O3dv6D8RXM" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Team42">
-    <mxGraphModel dx="748" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="2492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,7 +25,7 @@
         <mxCell id="cyj-z0VjZUZghWz-tNcz-10" value="Package" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="160" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-11" value="- int packageNumber&#xa;- Location location&#xa;- String transportationMethod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-11" value="- int packageNumber&#xa;- Location location&#xa;- int transportationMethod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
           <mxGeometry y="26" width="210" height="64" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
@@ -49,7 +49,7 @@
         <mxCell id="cyj-z0VjZUZghWz-tNcz-18" value="User " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="650" width="300" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-19" value="- String email&#xa;- String name&#xa;- String password&#xa;- String userType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-18">
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-19" value="- String email&#xa;- String name&#xa;- String password&#xa;- int userType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-18">
           <mxGeometry y="26" width="300" height="74" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-18">
@@ -57,6 +57,24 @@
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-21" value="+ String getEmail()&#xa;+ void setEmail(String email)&#xa;+ String getName()&#xa;+ void setName(String name)&#xa;+ String getPassword()&#xa;+ void setPasword(String password)&#xa;+ String getUserType()&#xa;+ void setUserType(String userType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-18">
           <mxGeometry y="108" width="300" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-43" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="-10" width="116" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-40" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;TransportMethod" style="html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-43">
+          <mxGeometry width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-41" value="aeroplane&lt;br&gt;ship&lt;br&gt;truck" style="whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-43">
+          <mxGeometry y="50" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-44" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="-20" width="116" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-45" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;UserType" style="html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-44">
+          <mxGeometry width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-46" value="Staff&lt;br&gt;Customer" style="whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-44">
+          <mxGeometry y="50" width="116" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
