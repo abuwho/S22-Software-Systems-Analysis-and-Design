@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T13:26:10.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KcWJBCS7GXZ1a8q-WLLM" version="17.4.6" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="711" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-04-21T13:54:35.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="I7kjOpas-qN1WHIM7BhD" version="17.4.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Team42">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-2" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="390" width="240" height="120" as="geometry" />
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-2" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="390" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-0" value="«interface»&lt;br&gt;&lt;b&gt;HandlerForUsers&lt;/b&gt;" style="html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-2">
-          <mxGeometry width="240" height="60" as="geometry" />
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-0" value="«interface»&lt;br&gt;&lt;b&gt;HandlersForUsers&lt;/b&gt;" style="html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-2">
+          <mxGeometry x="-30" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-1" value="+ getPackageLocation(courierNumber)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-2">
-          <mxGeometry y="60" width="240" height="60" as="geometry" />
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-1" value="+ authenticateCustomer(String email, String password)&lt;br&gt;+ getPackageLocation(bool isAuthenticated, int packageNumber)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-2">
+          <mxGeometry x="-30" y="60" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-3" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="390" width="240" height="120" as="geometry" />
+          <mxGeometry x="360" y="390" width="420" height="150" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-4" value="«interface»&lt;br&gt;&lt;b&gt;HandlersForStaff&lt;/b&gt;" style="html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-3">
-          <mxGeometry width="240" height="60" as="geometry" />
+          <mxGeometry width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-5" value="+ authenticateStaff(email, password)&lt;br&gt;+ updatePackageLocation(packageNumber)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-3">
-          <mxGeometry y="60" width="240" height="60" as="geometry" />
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-5" value="+ authenticateStaff(String email, String password)&lt;br&gt;+ updatePackageLocation(bool isAuthenticated, packageNumber, String packageFrom, String currentLocation)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-3">
+          <mxGeometry y="60" width="420" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
