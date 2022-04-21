@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T14:02:50.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="M0UOvOpumXo7b9yNO7Ut" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T14:19:17.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MPLpu0g7yXuAWYOVWyN4" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Team42">
     <mxGraphModel dx="1016" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,30 @@
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-5" value="+ bool authenticateStaff(String email, String password)&lt;br&gt;+ String updatePackageLocation(bool isAuthenticated, packageNumber, String packageFrom, String currentLocation)&lt;br&gt;+&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-3">
           <mxGeometry y="60" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-10" value="Package" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="170" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-11" value="- int packageNumber&#xa;- Location location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-10">
+          <mxGeometry y="78" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-14" value="Location" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="170" width="160" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-15" value="- float latitude&#xa;- float longitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-14">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-14">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-17" value="+ String getLocation()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cyj-z0VjZUZghWz-tNcz-14">
+          <mxGeometry y="98" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
