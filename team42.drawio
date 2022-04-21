@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T14:41:55.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Rl_vFp4RAe9qRLEf5HrS" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T14:51:46.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wH6JoqujGgtMHJpNP3u6" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Team42">
-    <mxGraphModel dx="948" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -47,7 +47,7 @@
           <mxGeometry y="98" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-18" value="User " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="850" width="300" height="260" as="geometry" />
+          <mxGeometry x="250" y="830" width="300" height="260" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-19" value="- String email&#xa;- String name&#xa;- String password&#xa;- int userType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cyj-z0VjZUZghWz-tNcz-18" vertex="1">
           <mxGeometry y="26" width="300" height="74" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="108" width="300" height="152" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-43" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="59" y="180" width="116" height="110" as="geometry" />
+          <mxGeometry x="520" y="160" width="116" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-40" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;TransportMethod" style="html=1;" parent="cyj-z0VjZUZghWz-tNcz-43" vertex="1">
           <mxGeometry width="116" height="50" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry y="50" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-44" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="219" y="170" width="116" height="110" as="geometry" />
+          <mxGeometry x="670" y="160" width="116" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-45" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;UserType" style="html=1;" parent="cyj-z0VjZUZghWz-tNcz-44" vertex="1">
           <mxGeometry width="116" height="50" as="geometry" />
