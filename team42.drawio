@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T16:51:32.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GACRdhdF37lh4DTO3YQO" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T16:57:24.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bTJtqO9xHEFJPrsebPl2" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Team42">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -31,7 +31,7 @@
         <mxCell id="cyj-z0VjZUZghWz-tNcz-4" value="«interface»&lt;br&gt;&lt;b&gt;HandlersForStaff&lt;/b&gt;" style="html=1;" parent="cyj-z0VjZUZghWz-tNcz-3" vertex="1">
           <mxGeometry width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cyj-z0VjZUZghWz-tNcz-5" value="+ bool authenticateStaff(String email, String password)&lt;br&gt;+ String updatePackageLocation(bool isAuthenticated, packageNumber, String packageFrom, String currentLocation)&lt;br&gt;+&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="cyj-z0VjZUZghWz-tNcz-3" vertex="1">
+        <mxCell id="cyj-z0VjZUZghWz-tNcz-5" value="+ bool validateEmail(String email)&lt;br&gt;+ String validatePassword(String password)&lt;br&gt;+ bool validateRole(String role)&lt;br&gt;+ String updatePackageLocation(String role, int packageNumber, String packageFrom, String currentLocation)&lt;br&gt;+&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="cyj-z0VjZUZghWz-tNcz-3" vertex="1">
           <mxGeometry y="60" width="420" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cyj-z0VjZUZghWz-tNcz-14" value="Location" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
