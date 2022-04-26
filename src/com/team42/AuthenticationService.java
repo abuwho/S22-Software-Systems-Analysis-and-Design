@@ -8,7 +8,7 @@ public class AuthenticationService {
 
     /*
      * This method verifies the user credentials and implement the request of the
-     * user if he is authorized to do the changes in this request
+     * user if he is authorized to do the actions in this request
      */
     public boolean loginAndHandleRequest(String email, String password, UserType userType, Integer packageNumber,
             Location location) {

@@ -4,6 +4,7 @@ public class Database {
     public static ArrayList<User> usersList = new ArrayList<>();
     public static ArrayList<Package> packagesList = new ArrayList<>();
 
+    // Used for automatically creating a unique Number for each package
     public static int packageNo = 1;
 
     // Checks if the user exists in the database
