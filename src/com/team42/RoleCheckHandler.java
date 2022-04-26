@@ -11,7 +11,7 @@ public class RoleCheckHandler extends Handler {
         if (userType == UserType.CUSTOMER) {
             Package requestedPackage = database.getPackage(packageNumber);
             if (requestedPackage != null) {
-                System.out.println("The location of your package is : "
+                System.out.println("Hello user, The current location of your package is : "
                         + requestedPackage.getLocation().toString());
             } else {
                 System.out.println("Package Not found");
@@ -21,7 +21,7 @@ public class RoleCheckHandler extends Handler {
             // The distribution admin creates new package
             Package p = new Package(Database.packageNo, location);
             database.addPackage(p);
-            System.out.println("Package Added successfully");
+            System.out.println("Package Added successfully. The current location of the package is : " + location);
             return true;
         } else if ((userType == UserType.AIRPORT_ADMIN && location == Location.AIRPLANE)
                 || (userType == UserType.ROAD_TRANSPORT_ADMIN && location == Location.TRUCK)
@@ -31,7 +31,8 @@ public class RoleCheckHandler extends Handler {
             boolean updateSucceeded = database.updatePackageLocation(packageNumber, location);
 
             if (updateSucceeded)
-                System.out.println("Location Updated Sucessfully");
+                System.out
+                        .println("Location Updated Sucessfully. The current location of the package is : " + location);
             else
                 System.out.println("Failed to update the location");
 

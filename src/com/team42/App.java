@@ -63,6 +63,8 @@ public class App {
          * package
          * If the email and password entered are correct, the location will be shown to
          * the customer
+         * The customer does not need to insert location. Only admins of distribution
+         * points need to enter this parameter to update the location of the package
          */
         service.login("n.amir@innopolis.ru", "145", UserType.CUSTOMER, 1, null);
 
