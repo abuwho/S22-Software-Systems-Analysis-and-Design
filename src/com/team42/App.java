@@ -18,7 +18,7 @@ public class App {
         // Adding Packages
         database.addPackage(package1);
 
-        Handler handler = new ValidateUserExistsHandler();
+        Handler handler = new UserExistsHandler();
         handler.setNextHandler(new ValidatePasswordHandler()).setNextHandler(new RoleCheckHandler());
 
         // The user will enter its login info and the number of the package to get its
