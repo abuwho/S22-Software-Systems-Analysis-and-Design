@@ -33,7 +33,8 @@ public class App {
          * If the email and password entered are correct the package will be created
          * If any of the data given is wrong creating the package will not be done
          */
-        service.login("m.kira@innopolis.ru", "12345", UserType.DISTRIBUTION_CENTER_ADMIN, Database.packageNo,
+        service.loginAndHandleRequest("m.kira@innopolis.ru", "12345", UserType.DISTRIBUTION_CENTER_ADMIN,
+                Database.packageNo,
                 Location.DISTRIBUTION_CENTER);
 
         /*
@@ -42,7 +43,7 @@ public class App {
          * The airport admin can only set the package location to "AirPlane". If he
          * tried to set it to another location the operation will be refused
          */
-        service.login("a.huraira@innopolis.ru", "1234", UserType.AIRPORT_ADMIN, 1, Location.AIRPLANE);
+        service.loginAndHandleRequest("a.huraira@innopolis.ru", "1234", UserType.AIRPORT_ADMIN, 1, Location.AIRPLANE);
 
         /*
          * The Road transport admin is the one responsible for updating the package
@@ -50,13 +51,14 @@ public class App {
          * If the email and password entered are correct, he will be allowed to update
          * the location to "Truck"
          */
-        service.login("v.ivanov@innopolis.ru", "125", UserType.ROAD_TRANSPORT_ADMIN, 1, Location.TRUCK);
+        service.loginAndHandleRequest("v.ivanov@innopolis.ru", "125", UserType.ROAD_TRANSPORT_ADMIN, 1, Location.TRUCK);
 
         /*
          * When the package arrives to the pickUp point, the pickup point manager will
          * update the package location to be in the pickup point
          */
-        service.login("z.vladimir@innopolis.ru", "123", UserType.PICKUP_POINT_ADMIN, 1, Location.PICKUP_POINT);
+        service.loginAndHandleRequest("z.vladimir@innopolis.ru", "123", UserType.PICKUP_POINT_ADMIN, 1,
+                Location.PICKUP_POINT);
 
         /*
          * The customer can login with his email or password and add the number of his
@@ -66,7 +68,7 @@ public class App {
          * The customer does not need to insert location. Only admins of distribution
          * points need to enter this parameter to update the location of the package
          */
-        service.login("n.amir@innopolis.ru", "145", UserType.CUSTOMER, 1, null);
+        service.loginAndHandleRequest("n.amir@innopolis.ru", "145", UserType.CUSTOMER, 1, null);
 
     }
 }

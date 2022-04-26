@@ -6,6 +6,7 @@ public class Database {
 
     public static int packageNo = 1;
 
+    // Checks if the user exists in the database
     public boolean isValidUser(String email) {
         for (User user : usersList) {
             if (user.getEmail().equals(email)) {
@@ -16,6 +17,7 @@ public class Database {
         return false;
     }
 
+    // Checks that the password entered by the user is correct
     public boolean isValidPassword(String email, String password) {
         for (User user : usersList)
             if (user.getEmail().equals(email))
@@ -52,10 +54,10 @@ public class Database {
         return null;
     }
 
+    // Changes the location of the package
     public boolean updatePackageLocation(int packageNumber, Location location) {
         for (int i = 0; i < packagesList.size(); i++) {
             if (packagesList.get(i).getPackageNumber() == packageNumber)
-                // TODO: Make sure it really updates
                 packagesList.get(i).setLocation(location);
             return true;
         }
