@@ -1,11 +1,3 @@
-public class Location {
-    String location;
-
-    public String getLocation() {
-        return this.location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
+public enum Location {
+    DISTRIBUTION_CENTER, AIRPLANE, TRUCK, PICKUP_POINT
 }

@@ -1,9 +1,12 @@
-import javax.tools.DocumentationTool.Location;
 
 public class Package {
     private int packageNumber;
     private Location location;
-    private TransportationMethod transportationMethod;
+
+    public Package(int packageNumber, Location location) {
+        this.packageNumber = packageNumber;
+        this.location = location;
+    }
 
     public int getPackageNumber() {
         return this.packageNumber;
@@ -11,14 +14,6 @@ public class Package {
 
     public void setPackageNumber(int packageNumber) {
         this.packageNumber = packageNumber;
-    }
-
-    public TransportationMethod getTransportationMethod() {
-        return this.transportationMethod;
-    }
-
-    public void setTransportationMethod(TransportationMethod transportationMethod) {
-        this.transportationMethod = transportationMethod;
     }
 
     public Location getLocation() {
