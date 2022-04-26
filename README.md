@@ -5,12 +5,14 @@ The main design pattern of our project was implemented is an **chain of responsi
 
 **System Details**
 
-Usersare splited into two parts:stuff(workers) and clients(customers). 
+Users are splited into two User's types:stuff(workers) and clients(customers). The transport method is also includes aeroplane,ship, track.
 
 **Code Elements**
+
+Class Location for getting the location of the package. Class Package consists of package number, location of it and transport method. Class User includes email of the user, user's password and a type of user(customer or stuff). We have an abstract class Base Handler with three extended handlers: User exist to check whether we have such an user in our base, Validate Passport to check the corectness of password. The third is Role Check to determine who user is : stuff or a client.
 
 **UML diagram**
 UML diagram for our system shows all classes, abstract classes, interfaces, and relations within our program, which was implemented in the Java programming language.
 
 The diagram can be accessed through the link below:
-
+https://app.diagrams.net/#Hhur41r4%2Fssad-team42%2Fmain%2Fteam42.drawio
