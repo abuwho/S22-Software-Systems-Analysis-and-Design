@@ -2,6 +2,7 @@ public class RoleCheckHandler extends Handler {
 
     Database database = new Database();
 
+    // Handles the request of the user according to its role
     @Override
     public boolean handle(String email, String password, UserType userType, Integer packageNumber, Location location) {
         UserType uType = database.getUser(email).getUserType();
