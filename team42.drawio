@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T13:27:22.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6CNnUSIr1470qhuXNkzu" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-26T13:27:41.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fPBEufdFB5wysIxMCeEa" version="17.4.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Chain of Responsibility">
     <mxGraphModel dx="1354" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,15 +325,6 @@
         </mxCell>
         <mxCell id="rr0swaz7cRlBqUtbKK85-4" value="+ String getEmail()&#xa;+ void setEmail(String email)&#xa;+ String getPassword()&#xa;+ void setPasword(String password)&#xa;+ String getUserType()&#xa;+ void setUserType(String userType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rr0swaz7cRlBqUtbKK85-1" vertex="1">
           <mxGeometry y="108" width="300" height="152" as="geometry" />
-        </mxCell>
-        <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-1" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1340" y="240" width="116" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-2" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;TransportMethod" style="html=1;" parent="MUsQoXS8Kp3FrqYdgBrQ-1" vertex="1">
-          <mxGeometry width="116" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-3" value="aeroplane&lt;br&gt;ship&lt;br&gt;truck" style="whiteSpace=wrap;html=1;" parent="MUsQoXS8Kp3FrqYdgBrQ-1" vertex="1">
-          <mxGeometry y="50" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1490" y="240" width="116" height="110" as="geometry" />
