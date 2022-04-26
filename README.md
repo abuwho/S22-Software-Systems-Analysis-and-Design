@@ -1,24 +1,74 @@
-# ssad-team42
+# Internet-Based Live Courier
 
-**Design Patterns**
+# Tracking And Delivery System
 
-The main design pattern of our project was implemented is an **chain of responsibility**. We used a chain of responsibility pattern as our implementation uses tracking system where both: customers and stuff are able to check the package's location. Chain of responsibility allows to go through all points of track and see what is the current position of the box. Applying such pattern we can check every step to determine whether package was lost or has came to the client.
+### Course: Software Systems Analysis and Design
 
+## Submitted by
 
-**System Details**
+#### Abu Huraira (a.huraira@innopolis.university)
 
-Users are splited into two User's types:stuff(workers) and clients(customers). The transport method is also includes aeroplane,ship,track. Each user is able to see a location of the package. Moreover, we applied singleton design pattern for Database class.
+#### Mostafa Khaled Mostafa Mohamed Aref Kira (m.kira@innopolis.university)
 
+#### Daria Verevkina (d.verevkina@innopolis.university)
 
-**Code Elements**
+#### Vladimir Rublev (v.rublev@innopolis.university)
 
-Class Location for getting the location of the package. Class Package consists of package number, location of it and transport method. Class User includes email of the user, user's password and a type of user(customer or stuff). We have an abstract class Base Handler with three extended handlers: User exist to check whether we have such an user in our base, Validate Passport to check the corectness of password. The third is Role Check to determine who user is : stuff or a client.
+## Internet-Based Live Courier Tracking And Delivery System
 
+According to Alexander Shvets, “ **Chain of Responsibility** is a behavioral design
+pattern that lets you pass requests along a chain of handlers. Upon receiving a
+request,eachhandlerdecideseithertoprocesstherequestortopassittothenext
+handler in the chain.” [1]
 
-**UML diagram**
+The main design pattern of our project was implemented is the **Chain of
+Responsibility.** Weuseda **Chain ofResponsibility** patternasourimplementation
+uses atracking system whereaClientcan make a requestand therequestgoes
+throughaseriesofHandlersofrequestsandultimatelyexecutestheClient’srequest.
+Chain of responsibility allows togo throughall points oftrackandseewhat isthe
+current positionofthebox.Byapplyingsuchapatternwe cancheckeverystepto
+determine whether the package was lost or has reached the client.
 
-UML diagram for our system shows all classes, abstract classes, interfaces, and relations within our program, which was implemented in the Java programming language.
+### System Details
 
+Usersaresplitinto 5 types:CUSTOMER,CUSTOMER,DISTRIBUTIONCENTER
+ADMIN,AIRPORTADMIN,ROADTRANSPORTADMIN,PICKUPPOINTADMIN.
+The possible locations of agivenPackageare implemented asan Enumeration
+(DISTRIBUTION_CENTER, AIRPLANE, TRUCK, PICKUP_POINT). Each user is
+able to see the location of the package upon successful execution of authentication.
 
-The diagram can be accessed through the link below:
-https://app.diagrams.net/#Hhur41r4%2Fssad-team42%2Fmain%2Fteam42.drawio
+### Code Elements
+
+Wehaveimplementedtheclass _Location_ forstoringthelocationofthepackage.The
+class _Package_ consists of the information about a package. Also, the class _User_
+includes the email of the user, the user's password, and a type of user (which is
+implemented using an Enumeration). We havean abstractclass _Handler_ with three
+extended handlers: **ValidateUserExistsHandler** tocheck, **ValidatePasswordHandler**
+tocheckthecorrectnessofthepassword.Thethirdis **RoleCheckHandler** todetermine
+theuser’sroleinthesystem.Afterhandlingallthesegmentsoftherequestthesystem
+
+finally executes the request.
+
+As perthe projectdescription, theprojectisfurtherextendibleintroducingabarcode
+scanningsystem,wheretheclientmaymakearequestjustbyscanningthebarcode.
+Afterimplementing ahandlerforretrievingtheinformationfromthebarcode,thedata
+then would be passed on to the existing handlers to deal with the request.
+
+### UML diagram
+
+```
+UMLdiagramforoursystemshowsallclasses,abstractclasses,interfaces,and
+relationswithinourprogram,whichwasimplementedintheJavaprogramming
+language.
+```
+
+Thediagramcanbeaccessedinthe **UML.svg** inthesubmissionfile.Alinktoapublic
+repository on GitHub has also been provided.
+
+### Repository
+
+**-** https://github.com/hur41r4/ssad-team
+
+## References:
+
+1. Shvets, A., 2020. Dive Into Design Patterns. 1st ed. p.256.
