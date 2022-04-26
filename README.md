@@ -1,5 +1,7 @@
 # ssad-team42
+
 **Design Patterns**
+
 The main design pattern of our project was implemented is an **chain of responsibility**. We used a chain of responsibility pattern as our implementation uses tracking system where both: customers and stuff are able to check the package's location. Chain of responsibility allows to go through all points of track and see what is the current position of the box. Applying such pattern we can check every step to determine whether package was lost or has came to the client.
 
 
