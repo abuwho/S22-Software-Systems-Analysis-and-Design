@@ -61,7 +61,7 @@ public class App {
                 Location.PICKUP_POINT);
 
         /*
-         * The customer can login with his email or password and add the number of his
+         * The customer can login with his email and password and add the number of his
          * package
          * If the email and password entered are correct, the location will be shown to
          * the customer
