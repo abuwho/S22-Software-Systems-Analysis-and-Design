@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T13:27:41.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fPBEufdFB5wysIxMCeEa" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-26T13:31:42.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Ckz9fgTnK0uSS1WeP_FR" version="17.4.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Chain of Responsibility">
     <mxGraphModel dx="1354" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
         <mxCell id="hAEmtSs_mm4udfY4H9ZR-1" value="Package" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="965" y="80" width="310" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hAEmtSs_mm4udfY4H9ZR-2" value="- int packageNumber&#xa;- Location location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hAEmtSs_mm4udfY4H9ZR-1" vertex="1">
+        <mxCell id="hAEmtSs_mm4udfY4H9ZR-2" value="- packageNumber: int&#xa;- location: Location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hAEmtSs_mm4udfY4H9ZR-1" vertex="1">
           <mxGeometry y="26" width="310" height="64" as="geometry" />
         </mxCell>
         <mxCell id="hAEmtSs_mm4udfY4H9ZR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="hAEmtSs_mm4udfY4H9ZR-1" vertex="1">
@@ -323,17 +323,17 @@
         <mxCell id="rr0swaz7cRlBqUtbKK85-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rr0swaz7cRlBqUtbKK85-1" vertex="1">
           <mxGeometry y="100" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rr0swaz7cRlBqUtbKK85-4" value="+ String getEmail()&#xa;+ void setEmail(String email)&#xa;+ String getPassword()&#xa;+ void setPasword(String password)&#xa;+ String getUserType()&#xa;+ void setUserType(String userType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rr0swaz7cRlBqUtbKK85-1" vertex="1">
+        <mxCell id="rr0swaz7cRlBqUtbKK85-4" value="+ String getEmail()&#xa;+ void setEmail(String email)&#xa;+ String getPassword()&#xa;+ void setPasword(String password)&#xa;+ UserType getUserType()&#xa;+ void setUserType(userType: UserType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rr0swaz7cRlBqUtbKK85-1" vertex="1">
           <mxGeometry y="108" width="300" height="152" as="geometry" />
         </mxCell>
         <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-4" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1490" y="240" width="116" height="110" as="geometry" />
+          <mxGeometry x="1360" y="70" width="220" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-5" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;UserType" style="html=1;" parent="MUsQoXS8Kp3FrqYdgBrQ-4" vertex="1">
-          <mxGeometry width="116" height="50" as="geometry" />
+          <mxGeometry width="220" height="55.55555555555556" as="geometry" />
         </mxCell>
-        <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-6" value="Staff&lt;br&gt;Customer" style="whiteSpace=wrap;html=1;" parent="MUsQoXS8Kp3FrqYdgBrQ-4" vertex="1">
-          <mxGeometry y="50" width="116" height="60" as="geometry" />
+        <mxCell id="MUsQoXS8Kp3FrqYdgBrQ-6" value="CUSTOMER&lt;br&gt;DISTRIBUTION_CENTER_ADMIN&lt;br&gt;AIRPORT_ADMIN&lt;br&gt;ROAD_TRANSPORT_ADMIN&lt;br&gt;PICKUP_POINT_ADMIN" style="whiteSpace=wrap;html=1;" parent="MUsQoXS8Kp3FrqYdgBrQ-4" vertex="1">
+          <mxGeometry y="55.55555555555556" width="220" height="144.44444444444446" as="geometry" />
         </mxCell>
         <mxCell id="jja-RJN0jUGoPcYpES7G-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FFa5N6bacRjldiAJ_zJj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -366,13 +366,13 @@
           <mxGeometry y="88" width="410" height="122" as="geometry" />
         </mxCell>
         <mxCell id="rKR4BnmrtI5eepBH9tX6-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1510" y="460" width="180" height="110" as="geometry" />
+          <mxGeometry x="1360" y="310" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rKR4BnmrtI5eepBH9tX6-2" value="&lt;b&gt;Enumeration&lt;/b&gt;&lt;br&gt;Location" style="html=1;" vertex="1" parent="rKR4BnmrtI5eepBH9tX6-1">
-          <mxGeometry width="180" height="50" as="geometry" />
+          <mxGeometry width="220.00000000000003" height="59.09090909090909" as="geometry" />
         </mxCell>
         <mxCell id="rKR4BnmrtI5eepBH9tX6-3" value="DISTRIBUTION_CENTER&lt;br&gt;AIRPLANE&lt;br&gt;TRUCK&lt;br&gt;PICKUP_POINT" style="whiteSpace=wrap;html=1;" vertex="1" parent="rKR4BnmrtI5eepBH9tX6-1">
-          <mxGeometry y="50" width="180" height="60" as="geometry" />
+          <mxGeometry y="59.09090909090909" width="220.00000000000003" height="70.9090909090909" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
