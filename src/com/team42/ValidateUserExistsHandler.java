@@ -1,5 +1,5 @@
 
-public class UserExistsHandler extends Handler {
+public class ValidateUserExistsHandler extends Handler {
 
     Database database = new Database();
 
