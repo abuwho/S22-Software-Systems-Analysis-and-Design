@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T21:24:31.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tPCmSNLZwSB7EjSIPuuS" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-26T21:27:18.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="0TAQI6Kne9EsS5cWsBIc" version="17.4.6" type="github" pages="2">
   <diagram id="otWur2WPJ21rTFbDRPrZ" name="Chain of Responsibility">
-    <mxGraphModel dx="1798" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="0srOOCT5m3BE5MQQgk_T-1" value="«abstract» Handler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="610" y="-155" width="310" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="0srOOCT5m3BE5MQQgk_T-2" value="- Handler next" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="0srOOCT5m3BE5MQQgk_T-1" vertex="1">
+        <mxCell id="0srOOCT5m3BE5MQQgk_T-2" value="- next : Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="0srOOCT5m3BE5MQQgk_T-1" vertex="1">
           <mxGeometry y="30" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0srOOCT5m3BE5MQQgk_T-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="0srOOCT5m3BE5MQQgk_T-1" vertex="1">
@@ -115,7 +115,7 @@
         <mxCell id="ImdTXS83Y6dw-iiiufQJ-1" value="AuthenticationService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-370" y="-320" width="410" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ImdTXS83Y6dw-iiiufQJ-2" value="- handler: Handle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ImdTXS83Y6dw-iiiufQJ-1" vertex="1">
+        <mxCell id="ImdTXS83Y6dw-iiiufQJ-2" value="- handler: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ImdTXS83Y6dw-iiiufQJ-1" vertex="1">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ImdTXS83Y6dw-iiiufQJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ImdTXS83Y6dw-iiiufQJ-1" vertex="1">
@@ -164,7 +164,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p0ZPCLanHvWfhputDumy" name="Representation">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
