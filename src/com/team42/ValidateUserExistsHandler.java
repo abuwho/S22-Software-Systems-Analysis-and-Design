@@ -6,8 +6,10 @@ public class ValidateUserExistsHandler extends Handler {
     @Override
     public boolean handle(String email, String password) {
 
-        return database.isValidUser(email);
+        if (!database.isValidUser(email))
+            return false;
 
+        return getNextHandler().handle(email, password);
     }
 
 }

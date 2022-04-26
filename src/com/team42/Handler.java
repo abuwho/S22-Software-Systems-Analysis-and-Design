@@ -6,4 +6,8 @@ public abstract class Handler implements HandlerInterface {
         return next;
     }
 
+    public Handler getNextHandler() {
+        return this.next;
+    }
+
 }

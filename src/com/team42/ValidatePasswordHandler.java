@@ -5,7 +5,13 @@ public class ValidatePasswordHandler extends Handler {
     @Override
     public boolean handle(String email, String password) {
 
-        return database.isValidPassword(password);
+        if (!database.isValidPassword(password)) {
+            return false;
+        }
+
+        else
+            // return getNextHandler().handle(email, password);
+            return true;
     }
 
 }
