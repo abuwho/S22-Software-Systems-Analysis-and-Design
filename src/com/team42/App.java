@@ -12,11 +12,12 @@ public class App {
         database.addUser(user2);
         database.addUser(user3);
 
-        Handler handler = new ValidateUserExistsHandler()
-                .setNextHandler(new ValidatePasswordHandler());
+        Handler handler = new ValidateUserExistsHandler();
+        handler.setNextHandler(new ValidatePasswordHandler());
         // .setNextHandler(new RoleCheckHandler());
 
         AuthenticationService service = new AuthenticationService(handler);
-        service.login("m.kira@innoplis.ru", "12345");
+        service.login("m.kira@innopis.ru", "12345");
+
     }
 }
