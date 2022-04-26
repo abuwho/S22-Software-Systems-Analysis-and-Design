@@ -1,4 +1,4 @@
 
 public interface HandlerInterface {
-    public boolean handle(String email, String password);
+    public boolean handle(String email, String password, int packageNumber);
 }

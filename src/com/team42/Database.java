@@ -42,4 +42,12 @@ public class Database {
         packagesList.add(p);
     }
 
+    public Package getPackage(int packageNumber) {
+        for (Package p : packagesList) {
+            if (p.getPackageNumber() == packageNumber)
+                return p;
+        }
+        return null;
+    }
+
 }

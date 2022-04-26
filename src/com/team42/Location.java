@@ -1,7 +1,11 @@
 public class Location {
     String location;
 
-    public String getLocation() {
+    public Location(String location) {
+        this.location = location;
+    }
+
+    public String toString() {
         return this.location;
     }
 
