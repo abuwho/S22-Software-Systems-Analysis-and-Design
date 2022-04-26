@@ -1,6 +1,4 @@
-# Internet-Based Live Courier
-
-# Tracking And Delivery System
+# Internet-Based Live Courier Tracking And Delivery System
 
 ### Course: Software Systems Analysis and Design
 
