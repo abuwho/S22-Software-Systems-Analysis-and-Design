@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
+        // Create users
         User user1 = new User("m.kira@innopolis.ru", "12345", UserType.STAFF);
         User user2 = new User("a.huraira@innopolis.ru", "1234", UserType.CUSTOMER);
 
