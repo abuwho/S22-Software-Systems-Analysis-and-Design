@@ -3,9 +3,9 @@ public class ValidatePasswordHandler extends Handler {
     Database database = new Database();
 
     @Override
-    public boolean handle(String email, String password, UserType userType, int packageNumber, Location location) {
+    public boolean handle(String email, String password, UserType userType, Integer packageNumber, Location location) {
 
-        if (!database.isValidPassword(password)) {
+        if (!database.isValidPassword(email, password)) {
             return false;
         }
 

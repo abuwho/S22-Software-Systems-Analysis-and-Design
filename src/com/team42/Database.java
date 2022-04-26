@@ -16,10 +16,13 @@ public class Database {
         return false;
     }
 
-    public boolean isValidPassword(String password) {
+    public boolean isValidPassword(String email, String password) {
         for (User user : usersList)
-            if (user.getPassword().equals(password))
-                return true;
+            if (user.getEmail().equals(email))
+                if (user.getPassword().equals(password))
+                    return true;
+                else
+                    return false;
 
         return false;
     }
