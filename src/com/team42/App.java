@@ -6,6 +6,10 @@ public class App {
         User user2 = new User("a.huraira@innopolis.ru", "1234", UserType.CUSTOMER);
         User user3 = new User("v.ivanov@innopolis.ru", "125", UserType.CUSTOMER);
 
+        // new Location
+
+        // Package package1 = new Package(1239123, "kazan", );
+
         Database database = new Database();
 
         database.addUser(user1);
@@ -18,5 +22,9 @@ public class App {
 
         AuthenticationService service = new AuthenticationService(handler);
         service.login("m.kira@innoplis.ru", "12345");
+
+
+
+        
     }
 }
