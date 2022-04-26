@@ -7,7 +7,7 @@ The main design pattern of our project was implemented is an **chain of responsi
 
 **System Details**
 
-Users are splited into two User's types:stuff(workers) and clients(customers). The transport method is also includes aeroplane,ship,track. Each user is able to see a location of the package.
+Users are splited into two User's types:stuff(workers) and clients(customers). The transport method is also includes aeroplane,ship,track. Each user is able to see a location of the package. Moreover, we applied singleton design pattern for Database class.
 
 
 **Code Elements**
