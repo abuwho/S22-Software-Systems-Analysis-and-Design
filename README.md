@@ -4,13 +4,13 @@
 
 ## Submitted by
 
-#### Abu Huraira (a.huraira@innopolis.university)
+#### Abu Huraira
 
-#### Mostafa Khaled Mostafa Mohamed Aref Kira (m.kira@innopolis.university)
+#### Mostafa Khaled Mostafa Mohamed Aref Kira
 
-#### Daria Verevkina (d.verevkina@innopolis.university)
+#### Daria Verevkina
 
-#### Vladimir Rublev (v.rublev@innopolis.university)
+#### Vladimir Rublev
 
 ## Internet-Based Live Courier Tracking And Delivery System
 
