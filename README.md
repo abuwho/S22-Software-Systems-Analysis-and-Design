@@ -15,3 +15,5 @@
 ## Internet-Based Live Courier Tracking And Delivery System
 
 ## For reading a detailed report, please refer to `Report.pdf` file in the repository.
+
+Note: This repository has been archived. It is not being maintained anymore. 
